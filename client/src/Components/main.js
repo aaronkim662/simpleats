@@ -1,5 +1,5 @@
-import React from "react"
-import "../css/main.css"
+import React from "react";
+import "../css/main.css";
 
 const Main = () => {
   return (
@@ -9,4 +9,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Main;
