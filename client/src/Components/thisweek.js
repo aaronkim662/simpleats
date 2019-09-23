@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Thisweek.css";
+import "../css/thisweek.css";
 
 const Thisweek = () => {
   return (

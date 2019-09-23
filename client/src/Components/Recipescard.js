@@ -1,9 +1,10 @@
 import React from "react";
-import "../css/Recipes.css";
+import "../css/receipes.css";
 
 const Recipescard = () => {
   return (
     <div>
+      <h1>This is receipes</h1>
       
     </div>
   )
