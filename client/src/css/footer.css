@@ -1,0 +1,16 @@
+.socialImage {
+  width: 20px;
+  height: 20px;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
