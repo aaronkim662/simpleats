@@ -1,5 +1,5 @@
-import React from "react"
-import "../css/Recipes.css"
+import React from "react";
+import "../css/Recipes.css";
 
 const Recipescard = () => {
   return (
@@ -9,4 +9,4 @@ const Recipescard = () => {
   )
 }
 
-export default Recipescard
+export default Recipescard;

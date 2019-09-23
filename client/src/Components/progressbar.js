@@ -1,5 +1,5 @@
-import React from "react"
-import "../css/Progressbar.css"
+import React from "react";
+import "../css/Progressbar.css";
 
 const Progressbar = () => {
   return (
@@ -9,4 +9,4 @@ const Progressbar = () => {
   )
 }
 
-export default Progressbar
+export default Progressbar;
