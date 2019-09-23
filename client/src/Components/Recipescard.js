@@ -1,7 +1,7 @@
 import React from "react"
 import "../css/Recipes.css"
 
-const Recipes = () => {
+const Recipescard = () => {
   return (
     <div>
       
@@ -9,4 +9,4 @@ const Recipes = () => {
   )
 }
 
-export default Recipes
+export default Recipescard
