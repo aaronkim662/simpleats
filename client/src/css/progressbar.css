@@ -1,0 +1,12 @@
+
+.RSPBprogressBar {
+  width: 50vw;
+  display: flex;
+  margin: 10px 0 20px 25%;
+  background-color: blue
+}
+
+/* .indicator {
+  display: flex;
+  flex-direction: column;
+} */
