@@ -39,13 +39,14 @@ Sidebar wrapper styles
 Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
 */
 .bm-menu-wrap {
-  position: fixed;
+  width: 90%;
   height: 100%;
+  opacity: 0.8;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background: white;
+  background-color: rgba(255,255,255);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
   height: 50%;
@@ -68,13 +69,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item {
   display: inline-block;
   text-decoration: none;
-
+  color: black;
 }
 
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
-  color:blue;
 }
 
 .iconHeart {
@@ -120,9 +120,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .navIcons {
   margin: 0px 11% 6px 0px;
 }
+
 .brad {
   color: black;
 }
+
 .bradpitt {
   width: 50px;
 }

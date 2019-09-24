@@ -44,9 +44,9 @@ render(){
       </div>
     </div>
         <Menu className="menuSet" right>
-          <div className="brad">Welcome back, Brad! <img src="https://res.cloudinary.com/dyeho7qym/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1569355027/Images/bradpitt_hsd6km.jpg" alt="bradpitt" className="bradpitt" /></div>
-          <a id="home" className="menu-item" href="/">My Account</a>
-          <a id="about" className="menu-item" href="/about">Delivery Info</a>
+          <div className="brad"><img src="https://res.cloudinary.com/dyeho7qym/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1569355027/Images/bradpitt_hsd6km.jpg" alt="bradpitt" className="bradpitt" />Welcome back, Brad! </div>
+          <li id="home" className="menu-item" >My Account</li>
+          <li id="about" className="menu-item">Delivery Info</li>
           <a id="contact" className="menu-item" href="/contact">Settings</a>
           <a onClick={ this.showSettings } className="menu-item--small" href="/">Log Out</a>
         </Menu >
