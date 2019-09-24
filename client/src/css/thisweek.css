@@ -78,7 +78,7 @@
   opacity: 1;
 }
 
-@media(max-width: 426px) {
+@media(max-width: 376px) {
   .thisWeekContainer {
     height: 245px;
     display: flex;
@@ -88,7 +88,13 @@
   .type1 {
     height: 62px;
     width: 62px;
-    margin-right: 55px;
+    margin-right: 45px;
+    margin-top: 72px;
+  }
+
+  .btm { 
+    margin-top: 17px;
+    margin-bottom: 32px;
   }
 
   .chickenP {
