@@ -10,12 +10,12 @@ import six from "../images/6.png"
 const Recipescard = () => {
   return (
     <div className="recipesContainer">
-      <img className="recipes" src={one}/>
-      <img className="recipes" src={four}/>
-      <img className="recipes" src={three}/>
-      <img className="recipes" src={two}/>
-      <img className="recipes" src={five}/>
-      <img className="recipes" src={six}/>
+      <img className="recipes" src={one} alt="img1"/>
+      <img className="recipes" src={four} alt="img2"/>
+      <img className="recipes" src={three} alt="img3"/>
+      <img className="recipes" src={two} alt="img4"/>
+      <img className="recipes" src={five} alt="img5"/>
+      <img className="recipes" src={six} alt="img6"/>
 
     </div>
   )

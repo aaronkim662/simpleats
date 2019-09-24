@@ -1,5 +1,4 @@
 import React from 'react';
-import Recipescard from "./Components/Recipescard";
 import Navbar from "./Components/navbar";
 import './App.css';
 import Footer from './Components/footer';
