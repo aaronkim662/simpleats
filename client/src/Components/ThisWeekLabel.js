@@ -2,12 +2,12 @@ import React from "react";
 import "../css/label.css"
 
 
-const Label = () => {
+const ThisWeekLabel = () => {
   return (
-    <div>
+    <div className="thisWeekContainer">
       THIS WEEK
     </div>
   )
 }
 
-export default Label
+export default ThisWeekLabel
