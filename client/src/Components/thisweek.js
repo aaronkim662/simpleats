@@ -6,7 +6,8 @@ const Thisweek = () => {
   return (
     <div>
       <div className="thisWeekContainer">
-        <img class="circleBase type1 chickenP"></img>
+        <div className="thisWeekContainerLabel">THIS WEEK</div>
+        <div class="circleBase type1 chickenP"></div>
         <div class="circleBase type1 lobsterR"></div>
         <div class="circleBase type1 chickenN"></div>
         <div class="circleBase type1 forthInRow btm"></div>
