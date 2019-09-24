@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela&display=swap');
+
 .bm-burger-button {
   margin-left: 90vw;
   position: fixed;
@@ -67,4 +69,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .menuClass {
   position: right;
+  height: 35px;
+  background-color: rgb(178, 191, 159);
+}
+
+.menuName {
+  font-family: 'Gabriela', serif;
+  font-size: 21px;
+  margin: 3px 0 4px 34px;
+  height: 28px;
+  width: 106px;
 }
