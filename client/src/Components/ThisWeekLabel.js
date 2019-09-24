@@ -4,8 +4,8 @@ import "../css/label.css"
 
 const ThisWeekLabel = () => {
   return (
-    <div className="thisWeekContainer">
-      This week
+    <div className="thisWeekContainerLabel">
+      THIS WEEK
     </div>
   )
 }

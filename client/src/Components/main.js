@@ -3,7 +3,8 @@ import "../css/main.css";
 import Progress from './progressbar';
 import Recipescard from './Recipescard';
 import Thisweek from './thisweek';
-import label from './ThisWeekLabel';
+import ThisWeekLabel from './ThisWeekLabel';
+
 
 const Main = () => {
         // <Progress />

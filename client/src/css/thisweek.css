@@ -78,6 +78,20 @@
   opacity: 1;
 }
 
+.thisWeekContainerLabel {
+  writing-mode: vertical-rl;
+  z-index: 99;
+  background: rgb(178, 191, 159);
+  border-radius: 15px;
+  padding: 15px;
+  font-family: 'Roboto';
+  display: inline-flexbox;
+  position: absolute;
+  left: 0;
+  /* margin-right: 450px; */
+
+}
+
 @media(max-width: 376px) {
   .thisWeekContainer {
     height: 245px;
