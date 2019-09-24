@@ -4,7 +4,7 @@ import Progress from './progressbar';
 
 const Thisweek = () => {
   return (
-    <div><Progress/>
+    <div>
       <div className="thisWeekContainer">
         <img class="circleBase type1 chickenP"></img>
         <div class="circleBase type1 lobsterR"></div>
