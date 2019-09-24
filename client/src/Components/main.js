@@ -4,9 +4,10 @@ import Progress from './progressbar';
 import Recipescard from './Recipescard'
 
 const Main = () => {
+        // <Progress />
   return (
     <div>
-      <Progress />
+
       <Recipescard />
     </div>
   )
