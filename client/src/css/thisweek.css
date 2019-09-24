@@ -1,0 +1,30 @@
+.thisWeekContainer {
+  height: 322px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.circleBase {
+  border-radius: 50%;
+  margin-right: 73px;
+}
+
+.type1 {
+  width: 151px;
+  height: 151px;
+  background-color: rgba(217, 152, 30, 0.5);
+}
+
+.chickenP {
+  opacity: .87;
+  background: url("https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: ease .3s;
+}
+
+.chickenP:hover {
+  transform: scale(1.02);
+  opacity: 1;
+}
