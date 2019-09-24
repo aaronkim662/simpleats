@@ -43,7 +43,8 @@ render(){
         className="iconSearch" />
       </div>
     </div>
-        <Menu className="menuSet" right>
+        <Menu className="menuSet" right
+          >
           <div className="brad"><img src="https://res.cloudinary.com/dyeho7qym/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1569355027/Images/bradpitt_hsd6km.jpg" alt="bradpitt" className="bradpitt" />Welcome back, Brad! </div>
           <li id="home" className="menu-item" >My Account</li>
           <li id="about" className="menu-item">Delivery Info</li>

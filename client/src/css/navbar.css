@@ -42,6 +42,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   width: 90%;
   height: 100%;
   opacity: 0.8;
+  overflow:hidden;
+
 }
 
 /* General sidebar styles */
@@ -70,6 +72,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: inline-block;
   text-decoration: none;
   color: black;
+  margin-bottom: 15px;
 }
 
 /* Styling of overlay */
@@ -106,6 +109,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background-color: rgb(178, 191, 159);
 }
 
+
 .menuName {
   font-family: 'Gabriela', serif;
   font-size: 40px;
@@ -123,10 +127,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .brad {
   color: black;
+  margin-bottom: 15px;
+  font-size: 24px;
 }
 
 .bradpitt {
   width: 50px;
+  border-radius: 30px;
 }
 
 @media(max-width: 426px) {
