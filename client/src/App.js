@@ -1,6 +1,6 @@
 import React from 'react';
 import Recipescard from "./Components/Recipescard";
-import Navbar from "./Components/navbar";
+import Navbar from "./Components/Navbar";
 import './App.css';
 import Footer from './Components/footer';
 import Main from './Components/main';
