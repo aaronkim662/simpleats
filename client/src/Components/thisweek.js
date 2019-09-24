@@ -9,8 +9,9 @@ const Thisweek = () => {
         <img class="circleBase type1 chickenP"></img>
         <div class="circleBase type1 lobsterR"></div>
         <div class="circleBase type1"></div>
+        <div class="circleBase type1 forthInRow"></div>
         <div class="circleBase type1"></div>
-        <div class="circleBase type1"></div>
+        <div class="circleBase type1 hidden"></div>
         <div class="circleBase type2">+</div>
       </div>
     </div>

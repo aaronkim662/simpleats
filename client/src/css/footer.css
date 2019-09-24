@@ -1,19 +1,21 @@
-.socialImage {
-  width: 20px;
-  height: 20px;
-}
-
-.socialMedia {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   font-family: 'Gabriela', serif;
   background-color: rgb(178, 191, 159);
   height: 46px;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  margin-left: 90%
+}
+
+.socialImage {
+  width: 20px;
+  height: 20px;
+  margin: 4px;
 }
