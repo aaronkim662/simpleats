@@ -1,5 +1,9 @@
 .recipes {
   height: 33%;
   width: 40%;
-  margin: 1%; 
+  margin: 1%;
+}
+
+.recipesContainer {
+  background-color: rgb(211,240,240);
 }
