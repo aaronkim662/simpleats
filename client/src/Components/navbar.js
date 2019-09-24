@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/navbar.css";
 import { bubble as Menu } from 'react-burger-menu'
+import { fab } from '@fortawesome/free-solid-svg-icons'
+
 
 class Navbar extends React.Component {
 state: {
@@ -31,9 +33,7 @@ render(){
   return (
     <div className="menuClass">
       <div className="menuName">SimplEats</div>
-      <i class="fas fa-heart"></i>
-
-
+      <fab icon="fas fa-heart" />
       <Menu className={"menuSet"} right>
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
