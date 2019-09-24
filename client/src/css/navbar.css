@@ -1,4 +1,5 @@
 .bm-burger-button {
+  margin-left: 90vw;
   position: fixed;
   width: 36px;
   height: 30px;
@@ -38,14 +39,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: yellow;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-  fill: #373a47;
+  fill: yellow;
 }
 
 /* Wrapper for item list */
@@ -62,4 +63,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.menuClass {
+  position: right;
 }
