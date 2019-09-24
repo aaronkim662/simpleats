@@ -40,7 +40,7 @@
 
 .chickenP {
   opacity: .8;
-  background: url("https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan.jpg");
+  background: url("https://thewanderlustkitchen.com/wp-content/uploads/2016/05/pasta-for-one-3.jpg");
   background-size: cover;
   background-position: center;
   transition: ease .4s;
@@ -52,7 +52,7 @@
 
 .lobsterR {
   opacity: .87;
-  background: url("https://s3.amazonaws.com/pixtruder/original_images/d65ed8e02f31454ea24295bf0537da50f8b8101c");
+  /* background: url("https://s3.amazonaws.com/pixtruder/original_images/d65ed8e02f31454ea24295bf0537da50f8b8101c"); */
   background-size: cover;
   background-position: center;
   transition: ease .4s;
@@ -68,7 +68,7 @@
 }
 
 .chickenN {
-  background: url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/14/0/FNK_Maple-Bacon-Grilled-Cheese_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382542424660.jpeg");
+  /* background: url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/14/0/FNK_Maple-Bacon-Grilled-Cheese_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382542424660.jpeg"); */
   background-size: cover;
   background-position: center;
   opacity: .87;
@@ -78,7 +78,7 @@
   opacity: 1;
 }
 
-@media(max-width: 426px) {
+@media(max-width: 376px) {
   .thisWeekContainer {
     height: 245px;
     display: flex;
@@ -88,7 +88,13 @@
   .type1 {
     height: 62px;
     width: 62px;
-    margin-right: 55px;
+    margin-right: 45px;
+    margin-top: 72px;
+  }
+
+  .btm { 
+    margin-top: 17px;
+    margin-bottom: 32px;
   }
 
   .chickenP {
