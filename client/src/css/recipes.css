@@ -3,3 +3,9 @@
   width: 40%;
   margin: 1%; 
 }
+
+@media(max-width: 426px) {
+  .recipes {
+    width: 90%;
+  }
+}
