@@ -8,13 +8,13 @@
 
 .circleBase {
   border-radius: 50%;
-  margin-right: 73px;
+  margin-right: 3%;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, .2);
 }
 
 .type1 {
-  width: 151px;
-  height: 151px;
+  width: 10%;
+  height: 50%;
   background-color: rgba(217, 152, 30, 0.5);
   cursor: pointer;
   transition: ease .4s;
@@ -25,10 +25,10 @@
 }
 
 .type2 {
-  width: 41px;
-  height: 41px;
+  width: 3%;
+  height: 15%;
   background-color: rgb(178, 191, 159);
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   cursor: pointer;
   transition: ease .4s
@@ -61,4 +61,41 @@
 .lobsterR:hover{
   transform: scale(1.02);
   opacity: 1;
+}
+
+.hidden { 
+  display: none;
+}
+
+@media(max-width: 426px) {
+  .thisWeekContainer {
+    height: 245px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .type1 {
+    height: 62px;
+    width: 62px;
+    margin-right: 55px;
+  }
+
+  .chickenP {
+    margin-left: 40px;
+  }
+
+  .forthInRow {
+    margin-left: 40px
+  }
+
+  .type2 {
+    height: 22px;
+    width: 20.4;  
+    font-size: 15px;
+    display: none;
+  }
+
+  .hidden {
+    display: flex;
+   }
 }
