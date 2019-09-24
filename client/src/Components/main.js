@@ -8,6 +8,7 @@ const Main = () => {
         // <Progress />
   return (
     <div>
+      <Progress />
       <Thisweek />
       <Recipescard />
     </div>

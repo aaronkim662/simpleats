@@ -1,9 +1,14 @@
 
-.RSPBprogressBar {
-  width: 50vw;
-  display: flex;
-  margin: 10px 0 20px 25%;
-  background-color: blue
+.progressbar {
+  /* height: 12px; */
+  width: 71%;
+  margin-top: 1%;
+}
+
+.progressContainer {
+  background-color: rgb(211,240,240);
+  height: 56px;
+
 }
 
 /* .indicator {
