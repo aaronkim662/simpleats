@@ -5,13 +5,13 @@
   align-items: center;
   font-family: 'Gabriela', serif;
   background-color: rgb(178, 191, 159);
-  height: 46px;
+  height: 3.3%;
 }
 
 .socialMedia {
   display: flex;
   align-items: center;
-  margin-left: 90%
+  margin-left: 70%
 }
 
 .socialImage {

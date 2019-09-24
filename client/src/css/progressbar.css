@@ -1,17 +1,47 @@
 
-.progressbar {
-  /* height: 12px; */
+.progressApp {
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 71%;
-  margin-top: 1%;
+  margin-top: 5.5%;
+}
+
+.progressDesktop {
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 71%;
+  margin-top: 5.5%;
 }
 
 .progressContainer {
   background-color: rgb(211,240,240);
   height: 56px;
-
 }
 
 /* .indicator {
   display: flex;
   flex-direction: column;
 } */
+
+@media(min-width: 480px) {
+  .progressApp {
+    display: none;
+  }
+
+  .progressContainer {
+    background-color: white;
+  }
+  .progressDesktop {
+    visibility: visible;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 71%;
+    margin-top: 5.5%;
+    margin-left: 16%;
+  }
+}

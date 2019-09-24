@@ -17,7 +17,6 @@ const Recipescard = () => {
       <img className="recipes" src={two}/>
       <img className="recipes" src={five}/>
       <img className="recipes" src={six}/>
-
     </div>
   )
 }
