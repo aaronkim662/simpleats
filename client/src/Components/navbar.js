@@ -1,7 +1,9 @@
 import React from "react";
 import "../css/navbar.css";
 import { bubble as Menu } from 'react-burger-menu'
-import { fab } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart, faSearch } from '@fortawesome/free-solid-svg-icons';
+
 
 
 class Navbar extends React.Component {
@@ -31,16 +33,23 @@ state: {
 // )
 render(){
   return (
+    <React.Fragment>
     <div className="menuClass">
       <div className="menuName">SimplEats</div>
-      <fab icon="fas fa-heart" />
-      <Menu className={"menuSet"} right>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-    </Menu >
+      <div className="navIcons">
+        <FontAwesomeIcon  icon={faHeart} className="iconHeart" />
+        <FontAwesomeIcon  icon={faSearch}
+        className="iconSearch" />
+      </div>
     </div>
+        <Menu className={"menuSet"} right>
+          <a id="home" className="menu-item" href="/">Home</a>
+          <a id="about" className="menu-item" href="/about">About</a>
+          <a id="contact" className="menu-item" href="/contact">Contact</a>
+          <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+        </Menu >
+        </React.Fragment>
+
 
   )
   }

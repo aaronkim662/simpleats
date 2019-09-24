@@ -48,7 +48,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: yellow;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
-  height: 50px
+  height: 100%
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -72,10 +72,26 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
 }
 
+.iconHeart {
+  color:rgb(217,137,108);
+  margin: 7px 0 7px 0;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.iconSearch {
+  margin: 7px 0 7px 0;
+  font-size: 24px;
+}
+
 .menuClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   position: right;
   height: 35px;
   background-color: rgb(178, 191, 159);
+
 }
 
 .menuName {
@@ -88,4 +104,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .menuSet {
     background-color: blue;
+}
+
+.navIcons {
+  margin: 0px 43px 6px 0px;
 }
