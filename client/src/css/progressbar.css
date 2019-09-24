@@ -1,29 +1,28 @@
 
 .progressbar {
   /* height: 12px; */
-  /* width: 71%; */
+  height: 10%;
+  width: 71%;
   background-color: rgb(211,240,240);
   background-image: url('../images/progressApp.png');
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
   justify-content: center;
-
   align-items: center;
   /* margin-left: 20%; */
   padding-top: 5%;
-  margin-top: 26px;
+  margin-left: 15%;
+  margin-top: 10%;
+
 
 }
 
 .progressContainer {
-  background-color: rgb(211,240,240);
+  /* background-color: rgb(211,240,240); */
   height: 56px;
 }
 
-.iconNone {
-
-}
 /* .indicator {
   display: flex;
   flex-direction: column;
@@ -36,10 +35,12 @@
   .progressbar {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-left: 15%;
-    padding-top: 5%;
+    background-color: white;
+    /* padding-top: 5%; */
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../images/progressDesktop.png');
+    background-image: url('../images/desktop.png');
   }
 }
