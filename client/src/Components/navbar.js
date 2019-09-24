@@ -37,12 +37,13 @@ render(){
     <div className="menuClass">
       <div className="menuName">🥬 SimplEats</div>
       <div className="navIcons">
+        <FontAwesomeIcon  icon={faHeart} className="iconNone" />
         <FontAwesomeIcon  icon={faHeart} className="iconHeart" />
         <FontAwesomeIcon  icon={faSearch}
         className="iconSearch" />
       </div>
     </div>
-        <Menu className={"menuSet"} right>
+        <Menu className="menuSet" right>
           <a id="home" className="menu-item" href="/">Home</a>
           <a id="about" className="menu-item" href="/about">About</a>
           <a id="contact" className="menu-item" href="/contact">Contact</a>
