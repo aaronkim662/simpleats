@@ -83,16 +83,21 @@
   z-index: 99;
   background: rgb(178, 191, 159);
   border-radius: 15px;
-  padding: 15px;
+  padding: 10px;
   font-family: 'Roboto';
   display: inline-flexbox;
   position: absolute;
   left: 0;
-  /* margin-right: 450px; */
-
+  font-weight: bold;
 }
 
 @media(max-width: 376px) {
+  .thisWeekContainerLabel {
+    writing-mode: horizontal-tb;
+    margin-top: -95px;
+  }
+
+
   .thisWeekContainer {
     height: 245px;
     display: flex;
