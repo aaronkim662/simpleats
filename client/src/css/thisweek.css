@@ -39,7 +39,7 @@
 }
 
 .chickenP {
-  opacity: .87;
+  opacity: .8;
   background: url("https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan.jpg");
   background-size: cover;
   background-position: center;
@@ -65,6 +65,17 @@
 
 .hidden { 
   display: none;
+}
+
+.chickenN {
+  background: url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/2/14/0/FNK_Maple-Bacon-Grilled-Cheese_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382542424660.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: .87;
+}
+
+.chickenN:hover {
+  opacity: 1;
 }
 
 @media(max-width: 426px) {

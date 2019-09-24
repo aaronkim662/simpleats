@@ -8,7 +8,7 @@ const Thisweek = () => {
       <div className="thisWeekContainer">
         <img class="circleBase type1 chickenP"></img>
         <div class="circleBase type1 lobsterR"></div>
-        <div class="circleBase type1"></div>
+        <div class="circleBase type1 chickenN"></div>
         <div class="circleBase type1 forthInRow"></div>
         <div class="circleBase type1"></div>
         <div class="circleBase type1 hidden"></div>

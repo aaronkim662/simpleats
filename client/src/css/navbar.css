@@ -6,7 +6,7 @@
   width: 50px;
   height: 10px;
   left: 0px;
-  top: 7px;
+  top: 25px;
   right: 0px;
 }
 
@@ -107,4 +107,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .navIcons {
   margin: 0px 43px 6px 0px;
+}
+
+
+@media(max-width: 426px) {
+  .menuClass {
+    height: 35px; 
+  }
+
+  .menuName {
+    font-size: 21px;
+  }
+
+  .bm-burger-button {
+    top: 7px;
+  }
 }
