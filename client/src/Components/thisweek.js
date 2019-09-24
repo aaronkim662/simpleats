@@ -6,10 +6,11 @@ const Thisweek = () => {
   return (
     <div className="thisWeekContainer">
       <img class="circleBase type1 chickenP"></img>
+      <div class="circleBase type1 lobsterR"></div>
       <div class="circleBase type1"></div>
       <div class="circleBase type1"></div>
       <div class="circleBase type1"></div>
-      <div class="circleBase type1"></div>
+      <div class="circleBase type2">+</div>
     </div>
   )
 }

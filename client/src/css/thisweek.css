@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   justify-items: center;
+  align-items: center;
 }
 
 .circleBase {
@@ -14,6 +15,26 @@
   width: 151px;
   height: 151px;
   background-color: rgba(217, 152, 30, 0.5);
+  cursor: pointer;
+  transition: ease .4s;
+}
+
+.type1:hover {
+  transform: scale(1.02);
+}
+
+.type2 {
+  width: 41px;
+  height: 41px;
+  background-color: rgb(178, 191, 159);
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: ease .4s
+}
+
+.type2:hover {
+  transform: scale(1.15)
 }
 
 .chickenP {
@@ -21,10 +42,22 @@
   background: url("https://www.budgetbytes.com/wp-content/uploads/2018/10/One-Pot-Creamy-Cajun-Chicken-Pasta-pan.jpg");
   background-size: cover;
   background-position: center;
-  transition: ease .3s;
+  transition: ease .4s;
 }
 
 .chickenP:hover {
+  opacity: 1;
+}
+
+.lobsterR {
+  opacity: .87;
+  background: url("https://s3.amazonaws.com/pixtruder/original_images/d65ed8e02f31454ea24295bf0537da50f8b8101c");
+  background-size: cover;
+  background-position: center;
+  transition: ease .4s;
+}
+
+.lobsterR:hover{
   transform: scale(1.02);
   opacity: 1;
 }
