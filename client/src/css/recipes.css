@@ -13,17 +13,28 @@
   z-index: 99;
   background: rgb(178, 191, 159);
   border-radius: 15px;
-  padding: 15px;
+  padding: 10px;
   font-family: 'Roboto';
   display: inline-flexbox;
   position: absolute;
   left: 0;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 @media(max-width: 426px) {
+  .recipesLabel {
+    writing-mode: horizontal-tb;
+    margin-top: -40px;
+    margin-bottom: 7px;
+  }
+  
   .recipes {
     width: 90%;
+  }
+
+  .recipesContainer {
+    padding-top: 50px;
   }
 }
 
