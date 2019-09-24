@@ -8,6 +8,19 @@
   background-color: rgb(211,240,240);
 }
 
+.recipesLabel {
+  writing-mode: vertical-rl;
+  z-index: 99;
+  background: rgb(178, 191, 159);
+  border-radius: 15px;
+  padding: 15px;
+  font-family: 'Roboto';
+  display: inline-flexbox;
+  position: absolute;
+  left: 0;
+  margin-top: 20px;
+}
+
 @media(max-width: 426px) {
   .recipes {
     width: 90%;

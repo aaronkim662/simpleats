@@ -86,6 +86,8 @@
   padding: 15px;
   font-family: 'Roboto';
   display: inline-flexbox;
+  position: absolute;
+  left: 0;
   /* margin-right: 450px; */
 
 }
