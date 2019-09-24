@@ -9,14 +9,14 @@ import six from "../images/6.png"
 
 const Recipescard = () => {
   return (
-    <div>
+    <div className="recipesContainer">
       <img className="recipes" src={one}/>
       <img className="recipes" src={two}/>
       <img className="recipes" src={three}/>
       <img className="recipes" src={four}/>
       <img className="recipes" src={five}/>
       <img className="recipes" src={six}/>
-      
+
     </div>
   )
 }

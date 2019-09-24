@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div>
       <Progress />
-      < Recipescard />
+      <Recipescard />
     </div>
   )
 }
