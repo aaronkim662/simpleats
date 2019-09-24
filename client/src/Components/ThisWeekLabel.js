@@ -5,7 +5,7 @@ import "../css/label.css"
 const ThisWeekLabel = () => {
   return (
     <div className="thisWeekContainer">
-      THIS WEEK
+      This week
     </div>
   )
 }
