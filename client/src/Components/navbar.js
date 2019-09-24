@@ -31,7 +31,10 @@ render(){
   return (
     <div className="menuClass">
       <div className="menuName">SimplEats</div>
-      <Menu className="menuSet" right>
+      <i class="fas fa-heart"></i>
+
+
+      <Menu className={"menuSet"} right>
         <a id="home" className="menu-item" href="/">Home</a>
         <a id="about" className="menu-item" href="/about">About</a>
         <a id="contact" className="menu-item" href="/contact">Contact</a>

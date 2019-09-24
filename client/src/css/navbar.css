@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Gabriela&display=swap');
 
 .bm-burger-button {
-  margin-left: 90vw;
+  margin-left:92vw;
   position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 36px;
+  width: 50px;
+  height: 10px;
+  left: 0px;
+  top: 7px;
+  right: 0px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: rgb(6,63,35);
+  width: 21px;
+  height: 3px;
+  margin-top: 4px;
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -44,6 +48,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: yellow;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  height: 50px
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -79,4 +84,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   margin: 3px 0 4px 34px;
   height: 28px;
   width: 106px;
+}
+
+.menuSet {
+    background-color: blue;
 }
