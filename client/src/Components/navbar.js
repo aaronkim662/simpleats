@@ -34,6 +34,7 @@ state: {
 render(){
   return (
     <React.Fragment>
+
     <div className="menuClass">
       <div className="menuName">🥬 SimplEats</div>
       <div className="navIcons">

@@ -2,6 +2,7 @@
   height: 33%;
   width: 40%;
   margin: 1%;
+  transition: all .2s ease-in-out;
 }
 
 .recipesContainer {
@@ -21,6 +22,20 @@
   margin-top: 20px;
   font-weight: bold;
 }
+.recipesLabel:hover {
+    background-color: white;
+
+
+  }
+
+.recipes:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-duration: 1s;
+  border-left: 8px solid lightblue;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.50), 0 10px 10px rgba(0,0,0,0.22);
+  transform: scale(1.1);
+}
 
 @media(max-width: 426px) {
   .recipesLabel {
@@ -28,7 +43,7 @@
     margin-top: -40px;
     margin-bottom: 7px;
   }
-  
+
   .recipes {
     width: 90%;
   }
@@ -37,4 +52,3 @@
     padding-top: 50px;
   }
 }
-

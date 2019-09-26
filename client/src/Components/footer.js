@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <img className="socialImage" src={Insta} alt="instagram"/>
-        <img className="socialImage" src={Twitter} alt="twitter"/>
-        <img className="socialImage" src={FB} alt="facebook"/>
+        <img className="socialImage" id="insta" src={Insta} alt="instagram"/>
+        <img className="socialImage" id="twit" src={Twitter} alt="twitter"/>
+        <img className="socialImage" id="fb" src={FB} alt="facebook"/>
       </div>
     </div>
   )

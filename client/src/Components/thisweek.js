@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/thisweek.css"
-import Progress from './progressbar';
 
 const Thisweek = () => {
   return (
@@ -19,4 +18,4 @@ const Thisweek = () => {
   )
 }
 
-export default Thisweek
+export default Thisweek;
