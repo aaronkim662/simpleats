@@ -18,11 +18,11 @@ An SEI/UXDI collaboration to design and develop a responsive website. Initial re
  | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
  | --- | :---: |  :---: | :---: | :---: |
  | Building skeleton | M | 30 Mins | 20 Mins |
- | Footer | L | 30 mins | |
- | Header | L | 1Hr |  |
- | Progress bar | L | 30 mins | |
- | Ingredients | L | 1Hr |  |
- | Displaying data in recipes | 1Hr |  |
+ | Footer | L | 30 mins | 15 mins |
+ | Header | L | 1 Hr | 2 Hr |
+ | Progress bar | L | 30 mins | 1 Hr |
+ | Ingredients | L | 1Hr | 30 mins |
+ | Displaying data in recipes | 1Hr | 2.5 Hr |
  | PMVP | | | |
- | Dark Mode | H | 2Hr | |
- | Hamburger Menu animation | M | 2Hr | |
+ | Dark Mode | H | 2Hr | Not done |
+ | Hamburger Menu animation | M | 2Hr | 2Hr |
