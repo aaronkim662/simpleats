@@ -62,7 +62,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
-  text-align: left;
+  text-align: right;
 }
 
 /* Individual item */
@@ -70,6 +70,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: inline-block;
   text-decoration: none;
   color: black;
+  margin-top: 10px;
 }
 
 /* Styling of overlay */
@@ -123,10 +124,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .brad {
   color: black;
+  font-size: 24px;
 }
 
 .bradpitt {
   width: 50px;
+  border-radius: 50px;
 }
 
 @media(max-width: 426px) {
