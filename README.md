@@ -1,4 +1,4 @@
-#SimplEats
+# SimplEats 
 
 An SEI/UXDI collaboration to design and develop a responsive website. Initial research was conducted by a previous team and synthesized a persona and problem statement. The design is only one page and aforementioned, responsive.
 
@@ -15,7 +15,7 @@ An SEI/UXDI collaboration to design and develop a responsive website. Initial re
  | Main | This will render the progress bar, ingredients, and recipes components  |
  | NavBar | This will render the hamburger menu. |
 
- | Component | Priority | Estimated Time | Time Invetsted | 
+ | Component | Priority | Estimated Time | Time Invetsted |
  | --- | :---: |  :---: | :---: |
  | Building skeleton | M | 30 Mins | 20 Mins |
  | Footer | L | 30 mins | 15 mins |
