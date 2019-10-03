@@ -19,3 +19,17 @@
   height: 20px;
   margin: 4px;
 }
+
+#insta:hover {
+  background-color: white;
+  border-radius: 50px;
+}
+
+#twit:hover {
+  background-color: lightblue;
+  border-radius: 50px;
+}
+#fb:hover {
+  background-color: blue;
+  border-radius: 50px;
+}

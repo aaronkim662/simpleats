@@ -11,12 +11,12 @@ const Recipescard = () => {
   return (
     <div className="recipesContainer">
       <div className="recipesLabel">RECIPES</div>
-      <img className="recipes" src={one}/>
-      <img className="recipes" src={four}/>
-      <img className="recipes" src={three}/>
-      <img className="recipes" src={two}/>
-      <img className="recipes" src={five}/>
-      <img className="recipes" src={six}/>
+      <img className="recipes" src={one} alt="one"/>
+      <img className="recipes" src={four} alt="four"/>
+      <img className="recipes" src={three} alt="three"/>
+      <img className="recipes" src={two} alt="two"/>
+      <img className="recipes" src={five} alt="five"/>
+      <img className="recipes" src={six} alt="six"/>
     </div>
   )
 }

@@ -2,8 +2,8 @@
 
 .bm-burger-button {
   margin-left:92vw;
-  position: fixed;
-  width: 50px;
+  position: absolute;
+  width: 30px;
   height: 10px;
   left: 0px;
   top: 25px;
@@ -42,6 +42,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
   width: 90%;
   height: 100%;
   opacity: 0.8;
+  overflow:hidden;
+
 }
 
 /* General sidebar styles */
@@ -70,7 +72,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: inline-block;
   text-decoration: none;
   color: black;
+<<<<<<< HEAD
   margin-top: 10px;
+=======
+  margin-bottom: 15px;
+>>>>>>> e3f42712adeb209dd9d7396bee65be53b759c454
 }
 
 /* Styling of overlay */
@@ -78,6 +84,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
 }
 
+/* .coverDiv {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  z-index: 0;
+
+
+} */
 .iconHeart {
   color:rgb(217,137,108);
   margin: 7px 0 7px 0;
@@ -98,6 +114,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .menuClass {
+  /* position: fixed; */
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -106,6 +124,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 75px;
   background-color: rgb(178, 191, 159);
 }
+
+/* .menuClass .menuName {
+  position: fixed;
+}
+
+.menuClass .navIcons {
+  position:fixed;
+} */
 
 .menuName {
   font-family: 'Gabriela', serif;
@@ -124,12 +150,20 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .brad {
   color: black;
+<<<<<<< HEAD
+=======
+  margin-bottom: 15px;
+>>>>>>> e3f42712adeb209dd9d7396bee65be53b759c454
   font-size: 24px;
 }
 
 .bradpitt {
   width: 50px;
+<<<<<<< HEAD
   border-radius: 50px;
+=======
+  border-radius: 30px;
+>>>>>>> e3f42712adeb209dd9d7396bee65be53b759c454
 }
 
 @media(max-width: 426px) {
